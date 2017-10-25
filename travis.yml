@@ -1,0 +1,10 @@
+install:
+  - dotnet restore
+  - dotnet build --configuration $(BuildConfiguration)
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $QTajaLpQjnhdmhA3vudd # Set in travis-ci.org dashboard
+  on:
+    branch: master
