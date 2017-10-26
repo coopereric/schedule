@@ -12539,11 +12539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\coope\\Documents\\Visual Studio 2017\\Projects\\Schedule\\Schedule.csproj",
-      "projectName": "Schedule",
-      "projectPath": "C:\\Users\\coope\\Documents\\Visual Studio 2017\\Projects\\Schedule\\Schedule.csproj",
+      "projectUniqueName": "C:\\Users\\coope\\Documents\\Visual Studio 2017\\Projects\\Schedule\\Schedule.Angular\\Schedule.Angular.csproj",
+      "projectName": "Schedule.Angular",
+      "projectPath": "C:\\Users\\coope\\Documents\\Visual Studio 2017\\Projects\\Schedule\\Schedule.Angular\\Schedule.Angular.csproj",
       "packagesPath": "C:\\Users\\coope\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\coope\\Documents\\Visual Studio 2017\\Projects\\Schedule\\obj\\",
+      "outputPath": "C:\\Users\\coope\\Documents\\Visual Studio 2017\\Projects\\Schedule\\Schedule.Angular\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
