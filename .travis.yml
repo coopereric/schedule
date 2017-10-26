@@ -3,6 +3,8 @@ dist: trusty
 sudo: required
 mono: none
 dotnet: 2.0.0
+notifications:
+    slack: coopercrew:173EPFKLkc435cInqCNvPhiF
 script:
   - chmod +x ./build.sh
   - ./build.sh --quiet verify
