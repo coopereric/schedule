@@ -1,0 +1,5 @@
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Database\bin\Debug\Schedule.Database.dacpac
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Database\bin\Debug\Schedule.Database.dll
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Database\bin\Debug\Schedule.Database.pdb
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Database\obj\Debug\Schedule.Database.dll
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Database\obj\Debug\Schedule.Database.pdb

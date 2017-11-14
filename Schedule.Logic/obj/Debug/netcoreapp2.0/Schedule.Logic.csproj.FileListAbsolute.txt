@@ -1,0 +1,9 @@
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Logic\bin\Debug\netcoreapp2.0\Schedule.Logic.deps.json
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Logic\bin\Debug\netcoreapp2.0\Schedule.Logic.dll
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Logic\bin\Debug\netcoreapp2.0\Schedule.Logic.pdb
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Logic\obj\Debug\netcoreapp2.0\Schedule.Logic.csproj.CoreCompileInputs.cache
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Logic\obj\Debug\netcoreapp2.0\Schedule.Logic.AssemblyInfoInputs.cache
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Logic\obj\Debug\netcoreapp2.0\Schedule.Logic.AssemblyInfo.cs
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Logic\obj\Debug\netcoreapp2.0\Schedule.Logic.dll
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Logic\obj\Debug\netcoreapp2.0\Schedule.Logic.pdb
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Logic\obj\Debug\netcoreapp2.0\Schedule.Logic.csprojResolveAssemblyReference.cache

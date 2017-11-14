@@ -1,0 +1,11 @@
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Angular\bin\Debug\netcoreapp2.0\Schedule.Angular.deps.json
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Angular\bin\Debug\netcoreapp2.0\Schedule.Angular.runtimeconfig.json
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Angular\bin\Debug\netcoreapp2.0\Schedule.Angular.runtimeconfig.dev.json
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Angular\bin\Debug\netcoreapp2.0\Schedule.Angular.dll
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Angular\bin\Debug\netcoreapp2.0\Schedule.Angular.pdb
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Angular\obj\Debug\netcoreapp2.0\Schedule.Angular.csprojResolveAssemblyReference.cache
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Angular\obj\Debug\netcoreapp2.0\Schedule.Angular.csproj.CoreCompileInputs.cache
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Angular\obj\Debug\netcoreapp2.0\Schedule.Angular.AssemblyInfoInputs.cache
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Angular\obj\Debug\netcoreapp2.0\Schedule.Angular.AssemblyInfo.cs
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Angular\obj\Debug\netcoreapp2.0\Schedule.Angular.dll
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Angular\obj\Debug\netcoreapp2.0\Schedule.Angular.pdb

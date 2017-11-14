@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs
+/Schedule.Api/bin/Debug/netcoreapp2.0
+/Schedule.Logic/bin/Debug/netcoreapp2.0
+/Schedule.Models/bin/Debug/netcoreapp2.0
+/Schedule.Web/bin/Debug/netcoreapp2.0

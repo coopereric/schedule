@@ -1,0 +1,11 @@
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Models\bin\Debug\netcoreapp2.0\Schedule.Models.deps.json
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Models\bin\Debug\netcoreapp2.0\Schedule.Models.dll
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Models\bin\Debug\netcoreapp2.0\Schedule.Models.pdb
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Models\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Models\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.xml
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Models\obj\Debug\netcoreapp2.0\Schedule.Models.csproj.CoreCompileInputs.cache
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Models\obj\Debug\netcoreapp2.0\Schedule.Models.AssemblyInfoInputs.cache
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Models\obj\Debug\netcoreapp2.0\Schedule.Models.AssemblyInfo.cs
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Models\obj\Debug\netcoreapp2.0\Schedule.Models.dll
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Models\obj\Debug\netcoreapp2.0\Schedule.Models.pdb
+C:\Users\coope\Desktop\Schedule\schedule\Schedule.Models\obj\Debug\netcoreapp2.0\Schedule.Models.csprojResolveAssemblyReference.cache
