@@ -10,7 +10,7 @@ import { ManagementComponent } from './management/management.component';
 import { LoginComponent } from './login/login.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
+//import { SidebarComponent } from './sidebar/sidebar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 
@@ -24,7 +24,7 @@ export const appRoutes: Routes = [
   declarations: [
     AppComponent,
     NavbarComponent,
-    SidebarComponent,
+    //SidebarComponent,
     FooterComponent,
     LoginComponent,
     DashboardComponent

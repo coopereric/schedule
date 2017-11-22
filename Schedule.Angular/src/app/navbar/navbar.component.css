@@ -1,7 +1,55 @@
-#navbar{
-    margin:0;
-    padding:0;
-    width:100%;
-    background-color: #efefef;
-    height:100px;
+#layout-topbar {
+    background-color: #20272a;
+    color:white;
+    display: block;
+    padding: 0;
+    height: 70px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9997;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+}
+
+#layout-topbar .menu-button {
+    display: none;
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 58px;
+    text-align: center;
+    transition: background-color .3s;
+}
+
+.topbar-menu {
+    list-style-type: none;
+    float: right;
+    margin: 0 60px 0 0;
+    padding: 0;
+}
+
+.topbar-menu, .topbar-menu>li, .topbar-menu>li>a {
+    display: inline-block;
+    height: 100%;
+    color:white;
+}
+
+.topbar-menu > li > a {
+    text-decoration: none;
+    color: #fff;
+    transition: background-color .3s;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+    min-width: 120px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 70px;
 }

@@ -5,6 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { ManagementComponent } from './management.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { UserComponent } from './user/user.component';
+import { SidebarComponent } from '../sidebar/sidebar.component';
 
 export const managementRoutes: Routes = [
   {
@@ -24,7 +25,9 @@ export const managementRoutes: Routes = [
   declarations: 
   [
     ManagementComponent, 
-    ScheduleComponent, UserComponent
+    ScheduleComponent, 
+    SidebarComponent,
+    UserComponent
   ],
   exports: [ManagementComponent]
 })

@@ -1,4 +1,38 @@
-div#sidebar{
-    width:150px;
-    background-color:#e7e7;
+#layout-sidebar{
+    width:200px;
+    height: 100%;
+    background-color: #e7e7e7;
+    display: block;
+    padding:0;
+    position:fixed;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+.sidebar-menu, .sidebar-menu>li, .sidebar-menu > li > a {
+    display: block;
+    color: white;
+}
+
+.sidebar-menu > li > a {
+    text-decoration: none;
+    color: #000000;
+    transition: background-color .3s;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+    min-width: 120px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 70px;
+}
+
+.sidebar-menu > li > a.active{
+    background-color:#20272a;
+    color:white;
 }
