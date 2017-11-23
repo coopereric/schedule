@@ -1,3 +1,18 @@
-<p>
-  schedule works!
-</p>
+<h2>Schedules</h2>
+
+
+<button styleClass="ui-button-info" type="text" (click)="showCreateDialog()" pButton icon="fa-external-link-square" label="Create"></button>
+<br><br>
+<p-schedule [events]="events" [header]="header" [eventLimit]="4" [editable]="true"></p-schedule>
+
+
+<p-dialog header="Create Schedule" [(visible)]="display" [responsive]="true" modal="modal">
+  <form [formGroup]="editScheduleForm" novalidate>
+    <div>
+      <label for="user">
+        <strong>User</strong>
+      </label>
+      <input formControlName="user">
+    </div>
+  </form>
+</p-dialog>

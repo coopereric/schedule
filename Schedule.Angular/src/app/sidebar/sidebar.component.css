@@ -33,6 +33,6 @@
 }
 
 .sidebar-menu > li > a.active{
-    background-color:#20272a;
-    color:white;
+    background-color: #efefef;
+    color:black;
 }

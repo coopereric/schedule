@@ -1,6 +1,12 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { Routes, RouterModule } from '@angular/router';
+import { NgModule }                from '@angular/core';
+import { CommonModule }            from '@angular/common';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { Routes, RouterModule }    from '@angular/router';
+import { ReactiveFormsModule }     from '@angular/forms';
+
+import { DataTableModule, 
+  DialogModule, ScheduleModule, 
+  DropdownModule, ButtonModule } from 'primeng/primeng';
 
 import { ManagementComponent } from './management.component';
 import { ScheduleComponent } from './schedule/schedule.component';
@@ -20,7 +26,14 @@ export const managementRoutes: Routes = [
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule.forChild(managementRoutes)
+    RouterModule.forChild(managementRoutes),
+    ReactiveFormsModule,
+    DataTableModule,
+    DialogModule,
+    ScheduleModule,
+    ButtonModule,
+    DropdownModule,
+    BrowserAnimationsModule
   ],
   declarations: 
   [
