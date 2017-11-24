@@ -1,0 +1,36 @@
+<h2>Shifts</h2>
+<p-dataTable [value]="shifts" selectionMode="single" [(selection)]="selectedShift" (onRowSelect)="onRowSelect($event)" [paginator]="true" rows="15" [responsive]="true">
+    <p-header>Shift Management</p-header>
+    <p-column field="ShiftID" header="Shift ID" [sortable]="true"></p-column>
+    <p-column field="TimeIn" header="Time In" [sortable]="true"></p-column>
+    <p-column field="TimeOut" header="Time Out" [sortable]="true"></p-column>
+    <p-column field="LunchStart" header="Lunch Start" [sortable]="true"></p-column>
+    <p-footer><div class="ui-helper-clearfix" style="width:100%"><button type="button" pButton icon="fa-plus" style="float:left" (click)="showDialog()" label="Add"></button></div></p-footer>
+</p-dataTable>
+
+<p-dialog header="Shift Details" [(visible)]="display" [contentStyle]="{'overflow':'visible'}" [responsive]="true" showEffect="fade" [modal]="true">
+    <div class="ui-grid ui-grid-responsive ui-fluid" *ngIf="shift">
+        <div class="ui-grid-row">
+            <div class="ui-grid-col-4"><label for="TimeIn">Time In</label></div>
+            <div class="ui-grid-col-8"><p-calendar showTime="true" [timeOnly]="true" hourFormat="12"></p-calendar></div>
+        </div>
+        <div class="ui-grid-row">
+            <div class="ui-grid-col-4"><label for="TimeOut">Time Out</label></div>
+            <div class="ui-grid-col-8"><p-calendar showTime="true" [timeOnly]="true" hourFormat="12"></p-calendar></div>
+        </div>
+        <div class="ui-grid-row">
+            <div class="ui-grid-col-4"><label for="lunchStart">Lunch Start</label></div>
+            <div class="ui-grid-col-8"><p-calendar showTime="true" [timeOnly]="true" hourFormat="12"></p-calendar></div>
+        </div>
+        <div class="ui-grid-row">
+            <div class="ui-grid-col-4"><label for="lunchEnd">Lunch End</label></div>
+            <div class="ui-grid-col-8"><p-calendar showTime="true" [timeOnly]="true" hourFormat="12"></p-calendar></div>
+        </div>
+    </div>
+    <p-footer>
+        <div class="ui-dialog-buttonpane ui-helper-clearfix">
+            <button type="button" pButton icon="fa-close" (click)="delete()" label="Delete"></button>
+            <button type="button" pButton icon="fa-check" (click)="save()" label="Save"></button>
+        </div>
+    </p-footer>
+</p-dialog>

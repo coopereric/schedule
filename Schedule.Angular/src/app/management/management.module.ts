@@ -6,19 +6,21 @@ import { ReactiveFormsModule }     from '@angular/forms';
 
 import { DataTableModule, 
   DialogModule, ScheduleModule, 
-  DropdownModule, ButtonModule } from 'primeng/primeng';
+  DropdownModule, ButtonModule, CalendarModule } from 'primeng/primeng';
 
-import { ManagementComponent } from './management.component';
-import { ScheduleComponent } from './schedule/schedule.component';
-import { UserComponent } from './user/user.component';
-import { SidebarComponent } from '../sidebar/sidebar.component';
+import { ManagementComponent }  from './management.component';
+import { ScheduleComponent }    from './schedule/schedule.component';
+import { UserComponent }        from './user/user.component';
+import { SidebarComponent }     from '../sidebar/sidebar.component';
+import { ShiftComponent }       from './shift/shift.component';
 
 export const managementRoutes: Routes = [
   {
     path: 'management', component: ManagementComponent,
     children: [
       { path: 'schedules', component: ScheduleComponent },
-      { path: 'users', component: UserComponent }
+      { path: 'users', component: UserComponent },
+      { path: 'shifts', component: ShiftComponent }
     ]
   }
 ];
@@ -33,6 +35,7 @@ export const managementRoutes: Routes = [
     ScheduleModule,
     ButtonModule,
     DropdownModule,
+    CalendarModule,
     BrowserAnimationsModule
   ],
   declarations: 
@@ -40,7 +43,8 @@ export const managementRoutes: Routes = [
     ManagementComponent, 
     ScheduleComponent, 
     SidebarComponent,
-    UserComponent
+    UserComponent,
+    ShiftComponent
   ],
   exports: [ManagementComponent]
 })

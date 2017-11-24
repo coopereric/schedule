@@ -5,6 +5,8 @@ import { FormGroup,
     Validators }         from '@angular/forms';
 import { SelectItem }    from 'primeng/primeng';
 
+import { ApiService } from '../../api.service';
+
 @Component({
   selector: 'app-schedule',
   templateUrl: './schedule.component.html',
@@ -13,6 +15,7 @@ import { SelectItem }    from 'primeng/primeng';
 })
 export class ScheduleComponent implements OnInit {
     events: any[];
+    users:  any[];
     header:   any;
   
     editScheduleForm: FormGroup;
@@ -21,7 +24,7 @@ export class ScheduleComponent implements OnInit {
     display: boolean       = false;
     isNewSchedule: boolean = false;
 
-  constructor(private fb: FormBuilder) {
+  constructor(private fb: FormBuilder, private apiService: ApiService) {
       this.editScheduleForm = this.fb.group({
           date: ['', Validators.required],
           user: ['', Validators.required],
@@ -36,6 +39,11 @@ export class ScheduleComponent implements OnInit {
         center: 'title',
         right: 'month,agendaWeek,agendaDay'
     };
+
+    this.users = [
+        {'userName': 'Eric Cooper', 'id': '123'},
+        {'userName': 'Abigail Cooper', 'id': '1234'}
+    ];
 
     this.events = [
       {

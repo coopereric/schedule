@@ -10,9 +10,9 @@ import { ManagementComponent } from './management/management.component';
 import { LoginComponent } from './login/login.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
-//import { SidebarComponent } from './sidebar/sidebar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
+import { ApiService } from './api.service';
 
 export const appRoutes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
@@ -34,7 +34,7 @@ export const appRoutes: Routes = [
     ManagementModule,
     RouterModule.forRoot(appRoutes, {enableTracing: true})
   ],
-  providers: [],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

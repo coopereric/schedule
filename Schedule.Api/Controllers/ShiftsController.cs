@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Schedule.Models.Models;
 using System;
 using System.Collections.Generic;
@@ -24,6 +25,29 @@ namespace Schedule.Api.Controllers
                          select s;
 
             return Json(shifts);
+        }
+
+
+        [HttpPost]
+        [Route("api/CreateShift")]
+        public async Task<IActionResult> CreateShift(Shift shift)
+        {
+            if(shift == null)
+            {
+                return BadRequest();
+            }
+
+            try
+            {
+                context.Shift.Add(shift);
+                await context.SaveChangesAsync();
+            }
+            catch(DbUpdateException ex)
+            {
+                ModelState.AddModelError(ex.Message, "Error creating shift: " + shift.ShiftId);
+            }
+
+            return Ok();
         }
 
 
