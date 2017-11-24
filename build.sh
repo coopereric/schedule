@@ -1,4 +1,4 @@
-cd Schedule
+cd Schedule.Api
 dotnet restore && dotnet build
 
 cd ../Schedule.Angular
